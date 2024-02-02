@@ -1,2 +1,3 @@
-# DotNetDependencies
+# DotNet Exercise 1: DotNet Dependencies
  
+This program was created following Microsoft Learn's .NET tutorial under the '[Build .NET applications with C#](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/)' training path. The exercise is meant to familiarize learners with creation of .NET projects in VS Code using the .NET cli, and also introduce learners with adding packages to a project. The section of the learning path this exercise is from is titled '[Create a new .NET project and work with dependencies](https://learn.microsoft.com/en-us/training/modules/dotnet-dependencies/3-exercise-dependency)'. 
