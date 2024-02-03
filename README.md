@@ -7,20 +7,20 @@ This program was created following Microsoft Learn's .NET tutorial under the '[B
 `dotnet --list-sdks`
 
 this command prints a list of the .NET sdks the user has installed. <br>
-[ref 1](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet)
+[dotnet command](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet)
 
 `dotnet new console -f net8.0`
 
 this command creates a new .NET console application, as noted by the `console` argument following `dotnet new` command, and uses the framework option `-f <FRAMEWORK>` to specify which .NET sdk framework is used in the app. <br>
-[ref 2](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new) <br>
-[ref 3](https://learn.microsoft.com/en-us/dotnet/standard/frameworks)
+[dotnet new](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new) <br>
+[Target frameworks in SDK-style projects](https://learn.microsoft.com/en-us/dotnet/standard/frameworks)
 
 `dotnet add package Humanizer --version 2.7.9`
 
 this command adds a package to the project, as noted by `add package <PACKAGE_NAME>`, however it is also used to update an existing package according to the reference page. In this project, the package "Humanizer" is added, specifically version 2.7.9 using the `--version 2.7.9` option. <br>
-[ref 4](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)
+[dotnet add package](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)
 
 `dotnet run`
 
 this command runs the project source code. There is more to learn about the command and its options in the reference. <br>
-[ref 5](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-run)
+[dotnet run](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-run)
